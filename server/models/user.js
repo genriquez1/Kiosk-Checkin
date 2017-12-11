@@ -26,6 +26,10 @@ var User = new Schema({
     type: String,
     // required: true
   },
+  escourt: {
+    type: String,
+    // required: true
+  },
   createdOn: {
     type: Date,
     // required: true

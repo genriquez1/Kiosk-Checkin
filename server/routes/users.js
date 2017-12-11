@@ -60,6 +60,7 @@ module.exports = (() => {
           email: req.body.email,
           telephone: req.body.telephone,
           company: req.body.company,
+          escourt: req.body.escourt,
         })
 
         // Attempt to create the new user in the database.

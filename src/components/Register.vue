@@ -37,11 +37,13 @@
     -->
     <br>
     <align left>
-    <input type="checkbox" @click="checkboxToggle">'Official Visit'
+    <input type="checkbox" @click="checkboxToggle"> Official Visit
     <br>
-    <input type="checkbox" @click="checkboxToggle">'Escourt Required'
+    <input type="checkbox" @click="checkboxToggle"> Escourt Required
     <br>
-    <input type="checkbox" @click="checkboxToggle">'Escourt Name'
+    <div class="form-group">
+      <input type="text" class="form-control" name="escourt" placeholder="Escourt" v-model="escourt">
+    </div>
     <br>
       <button class="btn btn-success" type="submit" >Submit! </button>
       </form>
@@ -75,6 +77,7 @@ export default {
       email: '',
       telephone: '',
       company: '',
+      escourt: '',
 
     }
   },
@@ -85,6 +88,7 @@ export default {
         email: this.email,
         telephone: this.telephone,
         company: this.company,
+        escourt: this.escourt,
       }
       this.$store.dispatch('register', newUser)
     }
