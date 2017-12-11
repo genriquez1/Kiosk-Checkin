@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <router-link to="/"> ADMIN ONLY </router-link>
+    <!-- <router-link to="/"> HOME </router-link> -->
     <a v-if="!this.$store.state.user.displayName" href="/register" @click="register">Register</a>
+
+    <a v-if="this.$store.state.user.displayName" href="/logout" @click="logout">Logout</a>
+    <router-link v-else to="/login">                                                   Administrator</router-link>
+
     <!--<a v-if="this.$store.state.user.displayName" href="/logout" @click="logout">Logout</a>
     <router-link v-else to="/login">Login</router-link> -->
     <h1>{{ title }}</h1>
@@ -16,7 +20,7 @@ export default {
   data () {
     return {
       title: 'Welcome to the Registration Kiosk'
-      
+
     }
   },
   methods: {
@@ -50,6 +54,6 @@ ul {
 }
 
 a {
-  color: #42b983;
+  color: #42b985;
 }
 </style>

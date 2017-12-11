@@ -15,9 +15,6 @@
       <div class="form-group">
         <input type="text" class="form-control" name="company" placeholder="Company" v-model="company">
       </div>
-
-
-
       <!-- ***Commenting out the previous Toronet Stuff***
       <div class="form-group">
         <input type="text" class="form-control" name="username" placeholder="Username" v-model="username">
@@ -35,7 +32,6 @@
         <input type="password" class="form-control" name="passwordConf" placeholder="Confirm password" v-model="passwordConf">
       </div>
     -->
-    <br>
     <align left>
     <input type="checkbox" @click="checkboxToggle"> Official Visit
     <br>
