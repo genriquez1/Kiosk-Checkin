@@ -51,15 +51,15 @@ module.exports = (() => {
       // If passwords match and all fields are present...
       if (req.body.displayName &&
         req.body.email &&
-        req.body.username &&
-        req.body.password &&
-        req.body.passwordConf) {
+        req.body.telephone &&
+        req.body.company )
+        {
 
         const newUser = new User({
           displayName: req.body.displayName,
           email: req.body.email,
-          username: req.body.username,
-          password: req.body.password,
+          telephone: req.body.telephone,
+          company: req.body.company,
         })
 
         // Attempt to create the new user in the database.

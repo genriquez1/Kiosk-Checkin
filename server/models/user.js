@@ -12,13 +12,13 @@ var User = new Schema({
     // unique: true,
     trim: true
   },
-  username: {
+  company: {
     type: String,
     // unique: true,
     // required: true,
     trim: true
   },
-  password: {
+  telephone: {
     type: String,
     // required: true
   },

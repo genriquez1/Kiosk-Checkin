@@ -15,9 +15,7 @@
       <div class="form-group">
         <input type="text" class="form-control" name="company" placeholder="Company" v-model="company">
       </div>
-      <div class="form-group">
-        <input type="text" class="form-control" name="displayName" placeholder="Name" v-model="displayName">
-      </div>
+
 
 
       <!-- ***Commenting out the previous Toronet Stuff***
@@ -37,22 +35,23 @@
         <input type="password" class="form-control" name="passwordConf" placeholder="Confirm password" v-model="passwordConf">
       </div>
     -->
-<div>
-    <ul class="object administrator-checkbox-list">
-        <li v-for="module in modules">
-            <label v-bind:for="module.id">
-                <input type="checkbox" v-model="form.modules" v-bind:value="module.id" v-bind:id="module.id">
-                <span> Enter Info here </span>
-            </label>
-        </li>
-    </ul>
-</div>
+    <br>
+    <align left>
+    <input type="checkbox" @click="checkboxToggle">'Official Visit'
+    <br>
+    <input type="checkbox" @click="checkboxToggle">'Escourt Required'
+    <br>
+    <input type="checkbox" @click="checkboxToggle">'Escourt Name'
+    <br>
       <button class="btn btn-success" type="submit" >Submit! </button>
       </form>
     </div>
 
 
 </template>
+
+
+
 
 <style>
 .container form{
@@ -73,20 +72,19 @@ export default {
   data() {
     return {
       displayName: '',
-      username: '',
       email: '',
-      password: '',
-      passwordConf: ''
+      telephone: '',
+      company: '',
+
     }
   },
   methods: {
     registerUser() {
       const newUser = {
         displayName: this.displayName,
-        username: this.username,
         email: this.email,
-        password: this.password,
-        passwordConf: this.passwordConf,
+        telephone: this.telephone,
+        company: this.company,
       }
       this.$store.dispatch('register', newUser)
     }

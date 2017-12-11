@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <router-link to="/">Home</router-link>
+    <router-link to="/"> ADMIN ONLY </router-link>
     <a v-if="!this.$store.state.user.displayName" href="/register" @click="register">Register</a>
-    <a v-if="this.$store.state.user.displayName" href="/logout" @click="logout">Logout</a>
-    <router-link v-else to="/login">Login</router-link>
+    <!--<a v-if="this.$store.state.user.displayName" href="/logout" @click="logout">Logout</a>
+    <router-link v-else to="/login">Login</router-link> -->
     <h1>{{ title }}</h1>
     <hr />
     <router-view />
@@ -15,7 +15,8 @@ export default {
   name: 'app',
   data () {
     return {
-      title: 'Kiosk:Please enter your information'
+      title: 'Welcome to the Registration Kiosk'
+      
     }
   },
   methods: {
