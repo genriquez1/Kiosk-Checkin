@@ -13,7 +13,7 @@
     <hr>
   </div>
   <div class="container" v-else>
-    <span class= "info_section">You must login to access Toro-Net!</span>
+    <span class= "info_section">You must login to access KIOSK</span>
   </div>
 </template>
 

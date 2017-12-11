@@ -15,7 +15,7 @@ export default {
   name: 'app',
   data () {
     return {
-      title: 'Toro--Net'
+      title: 'Kiosk:Please enter your information'
     }
   },
   methods: {
