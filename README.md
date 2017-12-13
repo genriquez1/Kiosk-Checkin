@@ -7,33 +7,41 @@ As stated by the assignment:
 The sign-in application is a simple front-end application that runs on a mobile device, e.g., an iPad or an Android tablet that communicated with a back-end database. This application is used as a kiosk device to collect 
 
 
-## Non-Functional Requirements
+### Non-Functional Requirements
 
-#Design 
+##Design 
 
+##Admin View
+- The design will be comprised of a Login page for Admin View which in this case is called Admin.
+
+
+##Visitor View 
+View for the individuals that approach the Kiosk. 
+   Within the window the fields will appear as: 
+   Name 
+   Email
+   Telephone
+   Company
+   Official visit (checkbox)
+   Escort required (checkbox)
+   Escort name (if Escort is checked)  ( Although I was unable to successfully implement)
+    
 
 #Tooling
+ Listed are the necessary tools in order to operate successfully:
 - Mongodb : for Database
-- NPM
-- Express
-- NodeJS
+- NPM : for dependencies
+- Express : Routing
+- NodeJS : For Backend
 - Mondodb Compass : for database management
+- Mustache
+- Handlebars
+- Mozilla Firefox : for debugging with a firebug plugin
+- HTML
+- CSS
+- Javascript
+- Git : required for cloning my repo and making your own future modifications
 
-
-sign-in
-The sign-in application is a simple front-end application that runs on a mobile device, e.g., an iPad or an Android tablet that communicated with a back-end database. This application is used as a kiosk device to collect information on visitors for a corporation.
-
-Visitor's View
-The sign-in application presents to users a web form asking for some necessary information:
-
-Name
-Email
-Telephone
-Company
-Official visit (checkbox)
-Escort required (checkbox)
-Escort name (if Escort is checked)
-When a visitor hits submit the form is sent to the server and stored in a database. The application is then redirected back to the login screen.
 
 Admin View
 The sign-in application offers a password-protected admin view. This view lists all the data from the database as a table.
@@ -44,7 +52,10 @@ Your application should be verified using the Chrome's developer tools view.
 
 
 
+## How to install
 
+Clone my Kiosk-Checkin repository via your terminal with
+git clone https://github.com/genriquez1/Kiosk-Checkin.git
 
 
 
