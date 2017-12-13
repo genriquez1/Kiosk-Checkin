@@ -1,0 +1,96 @@
+<h2 class="page-header">Kiosk Database</h2>
+<p>Welcome to Verizon Wireless Database Management System</p>
+<style type="text/css">
+th
+{
+    padding:0 32px 0 0px;
+}
+</style>
+
+<div>
+  <table>
+      <thead>
+          <th>Name</th>
+          <th>E-mail</th>
+          <th>Telephone</th>
+          <th>Company</th>
+          <th>Escort Name</th>
+          <th>Id</th>
+      </thead>
+      <tbody>
+       {{# each items }}
+       <tr>
+           <article class="item">
+              <td>{{ this.name }}</td>
+               <td>{{ this.email }}</td>
+               <td>{{ this.telephone }}</td>
+               <td>{{ this.company }}</td>
+               <td>{{ this.escortname }}</td>
+               <td>{{ this._id }}</div>
+           </article>
+      </tr>
+       {{/each}}
+         </tbody>
+    </table>
+</div>
+<style>
+.container {
+    max-width: 1200px;
+    background: url("https://user-images.githubusercontent.com/17266148/33914751-833ba556-df54-11e7-868c-c79e5b503ff7.jpg");
+    padding-bottom: 40px;
+    border: 10px solid rgba(0, 0, 0, 0.3);
+    width: 1200px;
+    background-repeat: repeat;
+    background-size: 1200px 700px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 12px 28px;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    background-color: #4e81a1;
+}
+
+.btn:hover {
+    background-color: #9dbbce;
+}
+
+.header {
+    padding-bottom: 1rem;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    box-shadow: 10px 10px 30px #8a8787;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1200px;
+}
+
+</style>
