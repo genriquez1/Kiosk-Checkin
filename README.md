@@ -72,7 +72,7 @@ http://localhost:3000/kiosk/login
 
 
 
-Pan of Action
+Plan of Action
 
 [] Research toronet in depth
 [] Acquire additional Backend knowledge
@@ -86,6 +86,15 @@ Pan of Action
 [] tooling (Nodejs, mongodb, etc) 
 [] Setup server
 [] deploy on localhost
+
+##References
+Below are some of the many tutorials I used to help me understand my final product:
+Node.js + Express - Tutorial - Insert and Get Data with MongoDB
+https://www.youtube.com/watch?v=ZKwrOXl5TDI&t=15s
+
+Node.js Login System With Passport 
+https://www.youtube.com/watch?v=OnuC3VtEQks
+
 
 
 Below is the audit commit histories with description changes
@@ -113,4 +122,15 @@ Version 1.8 - Kiosk -
  - All changes to Frontend and Backend 
  - Deletion of previous toronet adaptation
 
+Admin logging in:
+![admin login](https://user-images.githubusercontent.com/17266148/33921202-289e7a60-df77-11e7-899a-e33d341118f8.PNG)
 
+Admin View of Database:
+![screen shot 2017-12-12 at 19 52 02](https://user-images.githubusercontent.com/17266148/33921021-249435dc-df76-11e7-8ff8-b3f6b9e67fee.png)
+
+Registration window:
+![register](https://user-images.githubusercontent.com/17266148/33921176-ef4509e6-df76-11e7-8c71-7d69910e9447.PNG)
+
+
+Visitor Window:
+![visitor](https://user-images.githubusercontent.com/17266148/33921249-828618b2-df77-11e7-9e5d-88eee9991677.PNG)
