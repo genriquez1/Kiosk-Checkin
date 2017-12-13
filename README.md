@@ -72,7 +72,7 @@ http://localhost:3000/kiosk/login
 
 
 
-Plan of Action
+##Plan of Action
 
 [] Research toronet in depth
 [] Acquire additional Backend knowledge
@@ -126,7 +126,7 @@ Admin logging in:
 ![admin login](https://user-images.githubusercontent.com/17266148/33921202-289e7a60-df77-11e7-899a-e33d341118f8.PNG)
 
 Admin View of Database:
-![screen shot 2017-12-12 at 19 52 02](https://user-images.githubusercontent.com/17266148/33921021-249435dc-df76-11e7-8ff8-b3f6b9e67fee.png)
+![screen shot 2017-12-12 at 20 08 58](https://user-images.githubusercontent.com/17266148/33921377-54248b10-df78-11e7-9551-05d73f017d49.png)
 
 Registration window:
 ![register](https://user-images.githubusercontent.com/17266148/33921176-ef4509e6-df76-11e7-8c71-7d69910e9447.PNG)
