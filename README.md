@@ -24,3 +24,9 @@ Version 1.8 - Kiosk -
  - Creation of Administrator view (alpha mode) , 
  - Significant UI enhancements  
  - Additional DB endpoint adjustments
+ 
+ Version 3.0 - Kiosk  
+ - All changes to Frontend and Backend 
+ - Deletion of previous toronet adaptation
+
+
