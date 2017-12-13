@@ -11,10 +11,15 @@ The sign-in application is a simple front-end application that runs on a mobile 
 
 ##Design 
 
-##Admin View
+##Admin View :login
 - The design will be comprised of a Login page for Admin View which in this case is called Admin.
+   Username
+   Password
 
-
+##Admin View :database
+- The design will be comprised of a Login page for Admin View which in this case is called Admin.
+   Will be the posting of the database
+   
 ##Visitor View 
 View for the individuals that approach the Kiosk. 
    Within the window the fields will appear as: 
@@ -52,17 +57,35 @@ Your application should be verified using the Chrome's developer tools view.
 
 
 
-## How to install
+## How to run
 
-Clone my Kiosk-Checkin repository via your terminal with
+1. Clone my Kiosk-Checkin repository via your terminal with
 git clone https://github.com/genriquez1/Kiosk-Checkin.git
 
+2. Start mongodb 
+
+3. Open terminal with the new folder Directory and 
+
+4. On mozilla or your favorite browser run Localhost:3000 
+http://localhost:3000/kiosk/login
 
 
 
 
+Pan of Action
 
-
+[] Research toronet in depth
+[] Acquire additional Backend knowledge
+[] Implement a new endpoint and have it communicate with store   (ran into some issues here )
+[] Implement the rest of the assignment
+[] Fill out README and note progress
+[] Decided to proceed another option
+[] Installed firefox
+[] Installed Mongodb on windows
+[] Intall remaining depedencies
+[] tooling (Nodejs, mongodb, etc) 
+[] Setup server
+[] deploy on localhost
 
 
 Below is the audit commit histories with description changes
